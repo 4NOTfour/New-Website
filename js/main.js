@@ -10,6 +10,7 @@ jQuery(document).ready(function () {
         jQuery('.menu-wrapper a, .mob-menu').css('color', jQuery(this).find('.section-num span').css("color"));
     });
 
+    
 
     //Placeholder show/hide
     jQuery('input, textarea').focus(function () {

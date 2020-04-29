@@ -255,6 +255,34 @@ body a:hover
 
 /* HOME SECTION */
 
+.section-home .li{
+    color:#fff;
+}
+
+
+.section-home {
+    background-color: #23214c !important;
+    color:#ffff !important;
+}
+
+
+
+#home
+{
+    background-color: #23214c;
+    z-index: 9;
+}
+
+#home .section-title-holder
+{
+    background-color:#23214c;
+}
+
+#home .section-title-holder span
+{
+    color:#fff;
+}
+
 .intro-page 
 {
     padding-bottom: 170px;
@@ -310,8 +338,6 @@ h1.big-title
 }
 
 /* END HOME SECTION */
-
-
 
 /* SERVICE SECTION */
 
