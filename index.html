@@ -629,11 +629,31 @@
                         </div>
                         <div class="one_half last">
                             <div class="contact-form">
+                                <form action="https://formspree.io/mdownbyg" method="POST">
                                 <p><input id="name" type="text" name="your-name" placeholder="Name"></p>
-                                <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
+                                <p><input id="contact-email" type="email" name="_replyto" placeholder="Email"></p>
                                 <p><input id="subject" type="text" name="your-subject" placeholder="Subject"></p>
-                                <p><textarea id="message" name="your-message" placeholder="Message"></textarea></p>
-                                <p><input type="submit" onClick="SendMail()" value="SEND"></p>
+                                <p><textarea id="message" name="message" placeholder="Message"></textarea></p>
+                                <p><input type="submit"  value="SEND"></p>
+                                <!-- <button type="submit">Send</button> -->
+                                </form> 
+                                                               <!-- <form
+                                action="https://formspree.io/mdownbyg"
+                                method="POST"
+                                >
+                                <label>
+                                    Your email:
+                                    <input type="text" name="_replyto">
+                                </label>
+                                <label>
+                                    Your message:
+                                    <textarea name="message"></textarea>
+                                </label>
+
+
+                                <button type="submit">Send</button>
+                                </form> -->
+
                             </div>
                         </div>
                         <div class="clear"></div>
